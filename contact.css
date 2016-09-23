@@ -1,0 +1,165 @@
+@font-face{
+	font-family:'CustomFont9';
+	src: url('Fonts/Fabrica.otf');
+}
+#contactHeader {
+	width:100%;
+	height:100%;
+	background: rgba(30,30,30,1);
+	background: url('DisplayImages/Lumiere_Banner_1.jpg') no-repeat fixed center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#contactHeaderContents {
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-100px;
+	overflow:hidden;
+	height:200px;
+	width:500px;
+}
+#contactHeaderContents hr {
+	width:50px;
+	margin:auto;
+	border-color:#f6364d;
+	background-color:#f6364d;
+	color:#f6364d;
+	margin-top:20px;
+}
+#contactP1 {
+	color:white;
+	letter-spacing:10px;
+	font-size:20px;
+	font-family:CustomFont9;
+	margin-left:175px;
+}
+#contactP2 {
+	margin-top:20px;
+	color:white;
+	letter-spacing:15px;
+	font-size:65px;
+	font-family:CustomFont6;
+	margin-left:50px;
+}
+
+#contactForm {
+	width:100%;
+	height:1150px;
+	background-color:#efeeee;
+}
+#contactFormHolder {
+	width:1000px;
+	height:1150px;
+	margin:auto;
+}
+
+#contactHead1 {
+	text-align:center;
+	padding-top:120px;
+	font-family:CustomFont9;
+	font-size:30px;
+	letter-spacing:4px;
+	color:#61616e;
+}
+#contactHead2 {
+	text-align:center;
+	padding-top:18px;
+	font-family:CustomFont7;
+	font-size:17px;
+	letter-spacing:2px;
+	color:#61616e;
+}
+#contactFormHolder hr{
+	width:100px;
+	margin:auto;
+	height:6px;
+	border:none;
+	background-color:#f6364d;
+	color:#f6364d;
+	margin-top:30px;
+}
+
+#lumForm p{
+	font-size:18px;
+	font-family:customfont9;
+	letter-spacing:1px;
+	color:#41414e;
+	margin-left:100px;
+}
+#nameInput , #emailInput, #subjectInput, #messageInput {
+	width:800px;
+	margin-left:100px;
+	border: 1px solid #dfdddd;
+	font-size:18px;
+	color:#61616e;
+	letter-spacing:1px;
+}
+#lumForm textarea {
+	resize:none;
+	overflow-y:scroll;
+}
+#contactPP1 {
+	margin-top:50px;
+}
+#contactPP2 , #contactPP3, #contactPP4 {
+	margin-top:30px;
+}
+#nameInput , #emailInput, #subjectInput {
+	height:45px;
+}
+#messageInput {
+	height:250px;
+}
+
+#submitForm {
+	display:block;
+	border:0px;
+	background-color:rgba(246, 54, 77, 0.7);
+	border: none;
+	color:white;
+	height:50px;
+	width:120px;
+	position:relative;
+	margin-left:100px;
+	margin-top:30px;
+	font-size:18px;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+#submitForm:hover {
+	background-color:rgba(246, 54, 77, 1);
+}
+
+#iframeMessage {
+	height:90px;
+	width:990px;
+
+	margin-top:20px;
+	border:none;
+}
+.formMessage {
+	width:800px;
+	height:35px;
+	color:white;
+	margin-left:92px;
+	text-align:center;
+	font-size:16px;
+	font-family:CustomFont9;
+	padding-top:15px;
+	letter-spacing:1px;
+}
+.errorMessage {
+	background-color:rgba(246, 54, 77, 0.4);
+}
+.successMessage {
+	background-color:rgba(0, 109, 0, 0.4);
+}

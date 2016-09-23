@@ -1,0 +1,227 @@
+body {
+	background-color:#dddddd;
+}
+#galleryHeader {
+	width:100%;
+	height:100%;
+	background: rgba(30,30,30,1);
+	background: url('DisplayImages/Lumiere_Banner_7.jpg') no-repeat fixed center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#galleryHeaderContents {
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-100px;
+	overflow:hidden;
+	height:200px;
+	width:500px;
+}
+#galleryHeaderContents hr {
+	width:50px;
+	margin:auto;
+	border-color:#f6364d;
+	background-color:#f6364d;
+	color:#f6364d;
+	margin-top:20px;
+}
+#galleryP1 {
+	color:white;
+	letter-spacing:10px;
+	font-size:20px;
+	font-family:CustomFont9;
+	margin-left:175px;
+}
+#galleryP2 {
+	margin-top:20px;
+	color:white;
+	letter-spacing:15px;
+	font-size:65px;
+	font-family:CustomFont6;
+	margin-left:65px;
+}
+.finalPicHeading {
+	width:100%;
+	height:250px;
+	background-color:#dddddd;
+}
+.finalPicHeadingP1 {
+	color:#51515E;
+	font-size:30px;
+	letter-spacing:4px;
+	padding-top:100px;
+	text-align:center;
+	font-family:CustomFont9;
+}
+.finalPicHeadingP2 {
+	color:#61616E;
+	font-size:20px;
+	letter-spacing:2px;
+	padding-top:18px;
+	text-align:center;
+	font-family:CustomFont7;
+}
+#finishedProducts1, #finishedProducts2 {
+	width:100%;
+	height:1200px;
+}
+.picContainerA {
+	float:left;
+	overflow:hidden;
+	-webkit-transition: background .3s linear; /* Safari and Chrome */
+    -moz-transition: background .3s linear;/* Firefox */
+    -ms-transition: background .3s linear; /* IE 9 */
+    -o-transition: background .3s linear; /* Opera */
+    transition: background .3s linear;
+	cursor:pointer;
+}
+.translucentDivGallery {
+	position:absolute;
+	background:rgba(0, 0, 0, 0.1);
+	-webkit-transition: background .2s linear; /* Safari and Chrome */
+    -moz-transition: background .2s linear;/* Firefox */
+    -ms-transition: background .2s linear; /* IE 9 */
+    -o-transition: background .2s linear; /* Opera */
+    transition: background .2s linear;
+}
+.enlargeSprite {
+	background: url('DisplayImages/enlarge.png') no-repeat -1px -1px;
+	width:78px;
+	height:78px;
+	border-style:none;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-39px;
+	margin-left:-39px;
+	display:none;
+}
+#picContainerA1, #fullScrImg1 {
+	background: url('DisplayImages/Lumiere_Banner_5.jpg') no-repeat center;
+}
+#picContainerA2, #fullScrImg2 {
+	background: url('DisplayImages/Lumiere_Banner_4.jpg') no-repeat center;
+}
+#picContainerA3, #fullScrImg3 {
+	background: url('DisplayImages/Lumiere_Banner_6.jpg') no-repeat center;
+}
+#picContainerA4, #fullScrImg4 {
+	background: url('DisplayImages/Lumiere_Banner_1.jpg') no-repeat center;
+}
+#picContainerA5, #fullScrImg5 {
+	background: url('DisplayImages/Lumiere_Banner_7.jpg') no-repeat center;
+}
+#picContainerA6, #fullScrImg6 {
+	background: url('DisplayImages/Lumiere_Banner_3.jpg') no-repeat center;
+}
+#picContainerA7, #fullScrImg7 {
+	background: url('DisplayImages/Lumiere_Banner_11.jpg') no-repeat center;
+}
+#picContainerA8, #fullScrImg8 {
+	background: url('DisplayImages/Lumiere_Banner_2.jpg') no-repeat center;
+}
+#picContainerA9, #fullScrImg9 {
+	background: url('DisplayImages/Lumiere_Banner_10.jpg') no-repeat center;
+}
+
+#picContainerA10, #fullScrImg10 {
+	background: url('DisplayImages/productionPic1.jpg') no-repeat center;
+}
+#picContainerA11, #fullScrImg11 {
+	background: url('DisplayImages/productionPic5.jpg') no-repeat center;
+}
+#picContainerA12, #fullScrImg12 {
+	background: url('DisplayImages/productionPic3.jpg') no-repeat center;
+}
+#picContainerA13, #fullScrImg13 {
+	background: url('DisplayImages/Lumiere_Banner_8.jpg') no-repeat center;
+}
+#picContainerA14, #fullScrImg14 {
+	background: url('DisplayImages/productionPic2.jpg') no-repeat center;
+}
+#picContainerA15, #fullScrImg15 {
+	background: url('DisplayImages/productionPic4.jpg') no-repeat center;
+}
+#picContainerA16, #fullScrImg16 {
+	background: url('DisplayImages/productionPic11.jpg') no-repeat center;
+}
+#picContainerA17, #fullScrImg17 {
+	background: url('DisplayImages/productionPic10.jpg') no-repeat center;
+}
+#picContainerA18, #fullScrImg18 {
+	background: url('DisplayImages/productionPic6.jpg') no-repeat center;
+}
+#picContainerA19, #fullScrImg19 {
+	background: url('DisplayImages/productionPic8.jpg') no-repeat center;
+}
+#picContainerA20, #fullScrImg20 {
+	background: url('DisplayImages/productionPic9.jpg') no-repeat center;
+}
+#picContainerA21, #fullScrImg21 {
+	background: url('DisplayImages/productionPic7.jpg') no-repeat center;
+}
+.fullScrImgCont {
+	height:100%;
+	width:0%;
+	overflow:hidden;
+	position:fixed;
+	background-color:rgba(0, 0, 0, 0.85);
+	z-index:9000;
+}
+.fullScrImg {
+	position:absolute;
+}
+.closeImg {
+	position:absolute;
+	font-size:35px;
+	font-family:CustomFont6;
+	left:100%;
+	margin-left:-60px;
+	margin-top:25px;
+	cursor:pointer;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+.closeImg:hover {
+	color:white;
+}
+
+.changePicArrow {
+	position:absolute;
+	cursor:pointer;
+	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+	top:50%;
+	margin-top:-25px;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	height:50px;
+	width:32px;
+}
+.previousPic {
+	margin-left:20px;
+	content:url("DisplayImages/leftArrowBlack.png");
+}
+.previousPic:hover {
+	content:url("DisplayImages/leftArrowWhite.png");
+}
+.nextPic {
+	left:100%;
+	margin-left:-56px;
+	content:url("DisplayImages/rightArrowBlack.png");
+}
+.nextPic:hover {
+	content:url("DisplayImages/rightArrowWhite.png");
+}
